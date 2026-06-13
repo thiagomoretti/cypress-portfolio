@@ -1,0 +1,35 @@
+{
+  "name": "cypress-portfolio",
+  "version": "1.0.0",
+  "description": "Projeto de automação de testes E2E com Cypress para o Hub de Leitura - Portfólio QA",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run",
+    "test:login": "cypress run --spec 'cypress/e2e/login.cy.js'",
+    "test:cadastro": "cypress run --spec 'cypress/e2e/cadastro.cy.js'",
+    "test:headed": "cypress run --headed",
+    "test:headed:chrome": "cypress run --headed --browser chrome",
+    "test:headed:firefox": "cypress run --headed --browser firefox",
+    "test:debug": "cypress run --debug",
+    "test:tags": "cypress run --env tags",
+    "test:ci": "cypress run --record --parallel --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagomoretti/cypress-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/thiagomoretti/cypress-portfolio/issues"
+  },
+  "homepage": "https://github.com/thiagomoretti/cypress-portfolio#readme",
+  "devDependencies": {
+    "cypress": "^15.15.0",
+    "@faker-js/faker": "^8.3.0"
+  }
+}

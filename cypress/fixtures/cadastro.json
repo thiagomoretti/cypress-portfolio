@@ -1,0 +1,11 @@
+{
+  "nomeValido": "Friedrich Nietzsche",
+  "emailValido": "friedrich@teste.com",
+  "telefone": "11985447122",
+  "senhaValida": "Teste@123",
+  "senhaConfirmada": "Teste@123",
+  "senhaInvalida": "123456",
+  "nomeInvalido": "A",
+  "emailInvalido": "email-invalido",
+  "telefoneFomatoErrado": "123"
+}

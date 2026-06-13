@@ -1,0 +1,23 @@
+{
+  "livrosValidos": [
+    {
+      "titulo": "Dom Casmurro",
+      "autor": "Machado de Assis"
+    },
+    {
+      "titulo": "1984",
+      "autor": "George Orwell"
+    },
+    {
+      "titulo": "O Pequeno Príncipe",
+      "autor": "Antoine de Saint-Exupéry"
+    }
+  ],
+  "livroEsgotado": {
+    "titulo": "A Revolução dos Bichos",
+    "autor": "George Orwell"
+  },
+  "livroNaoEncontrado": {
+    "titulo": "Livro Inexistente"
+  }
+}
